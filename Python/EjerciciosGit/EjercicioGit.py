@@ -2,7 +2,7 @@ def main():
     valor1 = None
     valor2 = None
     
-    while False:
+    while True:
         print("1. Ingresar valor 1")
         print("2. Ingresar valor 2")
         print("3. Mostrar suma")
@@ -27,7 +27,7 @@ def main():
                 print("Debe ingresar ambos valores antes de realizar la operación.")
             else:
                 print("Resta:", valor1 - valor2)
-        elif opcion = 5:
+        elif opcion == 5:
             if valor1 is None or valor2 is None:
                 print("Debe ingresar ambos valores antes de realizar la operación.")
             else:
